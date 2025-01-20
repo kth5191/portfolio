@@ -8,7 +8,7 @@ function AboutSection() {
         
         <div className="App-about-content">
           <div className="App-profile-image">
-            <img src="/picture.jpg" alt="Profile" />
+            <img src="http://kth5191.github.io/portfolio/picture.jpg" alt="Profile" />
           </div>
           
           <div className="App-profile-info">

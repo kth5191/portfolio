@@ -18,8 +18,8 @@ function ProjectSection() {
 
   const projects = [
     {
-      image: '/site1/pic1.png',
-      images: ["/site1/pic1.png"],
+      image: 'http://kth5191.github.io/portfolio/site1/pic1.png',
+      images: ["http://kth5191.github.io/portfolio/site1/pic1.png"],
       tags: ["MySQL", "Java", "JavaScript", "Phaser3", "MVC2"],
       title: "웹 게임 매쉬업 포털 사이트",
       date: "2023년",
@@ -31,8 +31,8 @@ function ProjectSection() {
       youtube: "agui0ODIBg8"
     },
     {
-      image: '/site2/pic1.png',
-      images: ["/site2/pic1.png", "/site2/pic2.png"],
+      image: 'http://kth5191.github.io/portfolio/site2/pic1.png',
+      images: ["http://kth5191.github.io/portfolio/site2/pic1.png", "http://kth5191.github.io/portfolio/site2/pic2.png"],
       tags: ["Spring MVC", "Java", "Java Script", "MySQL", "MyBatis"],
       title: "그룹웨어",
       date: "2023년",
@@ -48,8 +48,8 @@ function ProjectSection() {
         youtube: "meuwV1J-W0E"
     },
     {
-      image: '/site3/pic1.png',
-      images: ["/site3/pic1.png", "/site3/pic2.png"],
+      image: 'http://kth5191.github.io/portfolio/site3/pic1.png',
+      images: ["http://kth5191.github.io/portfolio/site3/pic1.png", "http://kth5191.github.io/portfolio/site3/pic2.png"],
       tags: ["Java", "Java Script", "MySQL", "React", "JPA"],
       title: "부동산 플랫폼",
       date: "2023년",
