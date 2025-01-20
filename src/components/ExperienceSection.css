@@ -1,0 +1,103 @@
+.experience-section {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.experience-item {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.experience-item:hover {
+  transform: translateY(-4px);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.experience-title-group {
+  flex: 1;
+}
+
+.experience-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: white;
+  
+}
+
+experience-subtitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.experience-period {
+  font-size: 1.1rem;
+  color: #a0a0a0;
+  font-weight: 500;
+}
+
+.experience-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-detail-item {
+  position: relative;
+  margin-bottom: 0.75rem;
+  color: #e0e0e0;
+  line-height: 1.6;
+  text-align: left;
+  padding-left: 1.5rem;
+}
+
+.experience-detail-item::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .experience-section {
+    padding: 2rem 1rem;
+  }
+
+  .experience-header {
+    flex-direction: column;
+  }
+
+  .experience-period {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  .experience-title {
+    font-size: 1.25rem;
+  }
+
+  .experience-subtitle {
+    font-size: 1rem;
+  }
+}
+
